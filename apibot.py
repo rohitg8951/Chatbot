@@ -14,7 +14,7 @@ while True:
     response = client.chat.completions.create(
         model="llama3-70b-8192",
         messages=[
-            {"role": "system", "content": "Answer me only regarding to Sports Topic Not out of it"},
+            {"role": "system", "content": "Answer only regarding to Sports, You are Sport Info Bot"},
             {"role": "user", "content": user_input}
             ]
         )
